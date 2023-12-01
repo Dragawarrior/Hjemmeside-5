@@ -1,0 +1,64 @@
+.place1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size {
+    width: 35rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.glass1 {
+    /* From https://css.glass */
+background: rgba(150, 34, 29, 0.34);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.9px);
+-webkit-backdrop-filter: blur(4.9px);
+border: 1px solid rgba(150, 34, 29, 0.16);
+}
+
+.box1 {
+    width: 35rem;
+    margin: auto;
+    margin-top: 20px;
+    border: 3px solid var(--color-quaternary);
+    background-color: var(--color-quinary);
+}
+
+.test {
+    background-color: var(--color-quaternary);
+    text-align: justify;
+    width: 400px;
+    padding: 20px;
+}
+
+.fml {
+
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.test img {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px;
+}
+
+.box2 {
+    width: 35rem;
+    margin: auto;
+    margin-top: 200px;
+    border: 3px solid var(--color-quinary);
+    background-color: var(--color-quaternary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

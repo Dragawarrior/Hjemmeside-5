@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+a:link {
+    color: var(--color-tertiary);
+}
+
+a:visited {
+    color: var(--color-quaternary);
+}
+
+a:hover {
+    color: var(--color-quinary);
+}
+
+.button1 {
+    border-radius: 2px;
+    background-color: var(--color-tertiary);
+    border: 0px;
+}
+
+a:active {
+    color: var(--color-quaternary);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}
+
+.parallax-container {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+}
+
+.ul1 {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.welcome {
+    min-height: 100vh;
+}
+
+.about {
+    min-height: 100vh;
+}
+
+.projects {
+    min-height: 100vh;
+}
+
+.project2 {
+    min-height: 100vh;
+}
+
+.project3 {
+    min-height: 100vh;
+}
+
+.animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-size: 60px;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-color: beige;
+    -webkit-background-clip: text;
+    animation: colorChange 4s linear infinite alternate-reverse;
+}
+
+@keyframes colorChange {
+    from {background-color: var(--color-primary);}
+    to {background-color: var(--color-quinary);}
+}
+
+.project4 {
+    min-height: 100vh;
+}
+
+.ul2 {
+    list-style-type: none;
+}
+
+h1 {
+    margin: 0px;
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: large;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar {
+    display: flex;
+}
+
+.navStack {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Holy shit, this fucking worked!?*/
+@media (max-width: 425px) {
+
+    body {
+        width: 37rem;
+    }
+
+    .navBar {
+        flex-direction: column-reverse;
+    }
+
+
+
+    .stackButton {
+        display: inline;
+        width: 32px;
+    }
+
+    #navBar {
+        display: none;
+    }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/box.css">
+    <link rel="stylesheet" href="/css/images.css">
+    <link rel="stylesheet" href="/css/pallet.css">
+    
+    <script defer src="/js/main.js"></script>
+    <script defer src="/js/converter.js"></script>
+    <script defer src="/js/todo.js"></script>
+
+    <title>Ellen's Homepage</title>
+</head>
+<body class="page">
+    <!--header-->
+    <header class="header">
+        <h1>Ellen's Homepage</h1>
+
+        <button id="dark" class="button1">Dark Mode</button>
+        
+        <nav class="navBar">
+            <ul class="ul1 navStack" id="navBar">
+                <a href="#home">
+                    <li>Welcome</li>
+                </a>
+                <a href="#about">
+                    <li>About Me</li>
+                </a>
+                <a href="#projects">
+                    <li>Projects</li>
+                </a>
+                <a href="#converter">
+                    <li>Converter</li>
+                </a>
+                <a href="#animation">
+                    <li>Animation</li>
+                </a>
+                <a href="#todo">
+                    <li>List</li>
+                </a>
+            </ul>
+            <img class="stackButton" id="stackButton" src="/assets/Dropdown menu.png" alt="">
+        </nav>
+    </header>
+    <!--main-->
+    <main>
+        <section id="home" class="parallax-container welcome image1 place1">
+            <div class="glass1 size">
+                <h1>Welcome</h1>
+
+                <p>This little homepage will tell you a little bit about me and show some of the projects I'm working on.</p>
+            </div>
+        </section>
+        <section id="about" class="about place1">
+            <div class="box1">
+                <h1>About Me</h1>
+
+                <img src="/assets/Profile pic.png" alt="A drawing of a blond girl." class="itsa-me">
+                <p>
+                    I am 23 years old and I started coding in September 2023. I have learned how to code with HTML,CSS and JS. I tend to be a bit uncomfortable  in larger groups. I enjoy working building the webpage using primarily CSS and HTML. I have a million different hobbies that I pick up and put down depending on my mood. I also happen to have ADHD and autism as you could probably tell.
+                </p>
+            </div>
+        </section>
+        <div class="grad"> </div>
+        <!--Projects-->
+        <section id="projects" class="projects">
+            <div>
+                <h1>Projects</h1>
+                <p>
+                    These are some of the projects I have or am working on.
+                </p>
+                <div class="fml">
+                    <!--First homepage-->
+                    <div class="test">
+                        <h3>Homepage 1.0</h3>
+                        <p>This was my first attempt at a home page... it's not good</p>
+                        <a href="https://iridescent-shortbread-38899e.netlify.app" target="_blank">
+                            <img src="/assets/hjemmeside 2.png" alt="">
+                        </a>
+                    </div>
+                     <!--Project 1-->
+                    <div class="test">
+                        <h3>Project 1</h3>
+                        <p>This is a Parallax page I created about some of the places I want to visit in Japan</p>
+                        <a href="https://eclectic-alpaca-2bfe6c.netlify.app/" target="_blank">
+                            <img src="/assets/Projact 1.png" alt="A picture of an old temple" class="img">
+                        </a>
+                    </div>
+                    <!--Project 2-->
+                    <div class="test">
+                        <h3>Project 2</h3>
+                        <p>In this project I made a tiny gallery using the CSS code grid to place the pictures</p>
+                        <a href="https://illustrious-creponne-831da9.netlify.app/" target="_blank">
+                            <img src="/assets/Project 2.png" alt="A collage of animals" class="img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="grad2"> </div>
+        <!--Project 3-->
+        <section class="project2" id="converter">
+            <h3>Project 3</h3>
+            <div class="box2">
+                <h2>Unit Converter</h2>
+                <p>From feet to meter</p>
+                <input type="number" id="input" placeholder="00.00">
+
+                <label for="feet"></label>
+                <p><span id="output-meter">00.00</span>Meter</p>
+            </div>
+        </section>
+        <div class="grad"> </div>
+        <!--Project 4-->
+        <section class="project3" id="animation">
+            <div>
+                <h3>Project 4</h3>
+                <h2 class="animation">ANIMATION! I'M TRYING!</h2>
+            </div>
+        </section>
+        <!--Project 5-->
+        <div class="grad2"> </div>
+        <section class="project4" id="todo">
+            <h2>Project 5</h2>
+            <h3>Todo List</h3>
+            <input type="text" id="task-title">
+            <button id="add-task">Add Task</button>
+            <ul class="ul2" id="task-list"></ul>
+        </section>
+    </main>
+    <!--footer-->
+    <footer class="footer">
+        <h3>Made by Ellen</h3>
+    </footer>
+</body>
+</html>

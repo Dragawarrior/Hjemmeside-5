@@ -1,0 +1,45 @@
+:root {
+    --color-primary: #FF9B54;
+    --color-secondary: #FF7F51;
+    --color-tertiary: #CE4257;
+    --color-quaternary: #720026;
+    --color-quinary: #4F000B; 
+}
+
+.themeDark {
+    --color-primary: #4F000B;
+    --color-secondary: #720026;
+    --color-tertiary: #CE4257;
+    --color-quaternary: #FF7F51;
+    --color-quinary: #FF9B54;
+}
+
+body {
+    background-color: var(--color-secondary);
+}
+
+.header {
+    background-color: var(--color-primary);
+}
+
+.grad {
+    padding: 0px;
+    height: 200px;
+    background-color: var(--color-secondary);
+    background-image: linear-gradient(var(--color-secondary),var(--color-tertiary)) ;
+}
+
+.grad2 {
+    padding: 0px;
+    height: 200px;
+    background-color: var(--color-tertiary);
+    background-image: linear-gradient(var(--color-tertiary), var(--color-secondary));
+}
+
+.projects {
+    background-color: var(--color-tertiary);
+}
+
+.project3 {
+    background-color: var(--color-tertiary);
+}

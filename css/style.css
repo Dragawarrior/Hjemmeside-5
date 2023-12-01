@@ -34,8 +34,8 @@ a:active {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: baseline;
     padding: 10px;
     position: sticky;
     top: 0px;
@@ -50,7 +50,6 @@ a:active {
 }
 
 .ul1 {
-    display: flex;
     gap: 20px;
     list-style-type: none;
 }
@@ -59,8 +58,16 @@ a:active {
     min-height: 100vh;
 }
 
+.w-text {
+    color: black;
+}
+
 .about {
     min-height: 100vh;
+}
+
+.wb-text {
+    color: var(--color-primary);
 }
 
 .projects {
@@ -71,8 +78,16 @@ a:active {
     min-height: 100vh;
 }
 
+h2 {
+    color: var(--color-primary);
+}
+
 .project3 {
     min-height: 100vh;
+}
+
+.todolist {
+    margin-top: 100px;
 }
 
 .animation {
@@ -107,12 +122,20 @@ h1 {
 }
 
 p {
-    color: black;
+    color: var(--color-primary);
     font-size: large;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.p-text {
+    color: black;
+}
+
+.h3-color {
+    color: var(--color-primary);
 }
 
 .navBar {
@@ -142,6 +165,15 @@ p {
     .stackButton {
         display: inline;
         width: 32px;
+    }
+    
+    .navStack {
+        display: none;
+    }
+
+    .navStackHamburger {
+        display: flex;
+        flex-direction: column;
     }
 
 }

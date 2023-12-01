@@ -21,8 +21,8 @@
 
         <button id="dark" class="button1">Dark Mode</button>
         
-        <nav class="navBar navStack">
-            <ul class="ul1" id="navBar">
+        <nav class="navBar">
+            <ul class="ul1 navStack" id="navBar">
                 <a href="#home">
                     <li>Welcome</li>
                 </a>
@@ -51,12 +51,12 @@
             <div class="glass1 size">
                 <h1>Welcome</h1>
 
-                <p>This little homepage will tell you a little bit about me and show some of the projects I'm working on.</p>
+                <p class="w-text">This little homepage will tell you a little bit about me and show some of the projects I'm working on.</p>
             </div>
         </section>
         <section id="about" class="about place1">
             <div class="box1">
-                <h1>About Me</h1>
+                <h1 class="wb-text">About Me</h1>
 
                 <img src="/assets/Profile pic.png" alt="A drawing of a blond girl." class="itsa-me">
                 <p>
@@ -69,13 +69,13 @@
         <section id="projects" class="projects">
             <div>
                 <h1>Projects</h1>
-                <p>
+                <p class="p-text">
                     These are some of the projects I have or am working on.
                 </p>
                 <div class="fml">
                     <!--First homepage-->
                     <div class="test">
-                        <h3>Homepage 1.0</h3>
+                        <h3 class="h3-color">Homepage 1.0</h3>
                         <p>This was my first attempt at a home page... it's not good</p>
                         <a href="https://iridescent-shortbread-38899e.netlify.app" target="_blank">
                             <img src="/assets/hjemmeside 2.png" alt="">
@@ -83,7 +83,7 @@
                     </div>
                      <!--Project 1-->
                     <div class="test">
-                        <h3>Project 1</h3>
+                        <h3 class="h3-color">Project 1</h3>
                         <p>This is a Parallax page I created about some of the places I want to visit in Japan</p>
                         <a href="https://eclectic-alpaca-2bfe6c.netlify.app/" target="_blank">
                             <img src="/assets/Projact 1.png" alt="A picture of an old temple" class="img">
@@ -91,7 +91,7 @@
                     </div>
                     <!--Project 2-->
                     <div class="test">
-                        <h3>Project 2</h3>
+                        <h3 class="h3-color">Project 2</h3>
                         <p>In this project I made a tiny gallery using the CSS code grid to place the pictures</p>
                         <a href="https://illustrious-creponne-831da9.netlify.app/" target="_blank">
                             <img src="/assets/Project 2.png" alt="A collage of animals" class="img">
@@ -124,16 +124,19 @@
         <!--Project 5-->
         <div class="grad2"> </div>
         <section class="project4" id="todo">
-            <h2>Project 5</h2>
-            <h3>Todo List</h3>
-            <input type="text" id="task-title">
-            <button id="add-task">Add Task</button>
-            <ul class="ul2" id="task-list"></ul>
+            <h3>Project 5</h3>
+            <div class="todolist">
+                <h3>Todo List</h3>
+                <input type="text" id="task-title">
+                <button id="add-task">Add Task</button>
+                <ul class="ul2" id="task-list"></ul>
+            </div>
         </section>
     </main>
     <!--footer-->
     <footer class="footer">
         <h3>Made by Ellen</h3>
+        <a href="" target="_blank" class="icon-github"></a>
     </footer>
 </body>
 </html>

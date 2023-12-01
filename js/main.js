@@ -22,6 +22,6 @@ let navBar = document.getElementById("navBar");
 let stackButton = document.getElementById("stackButton")
 
 stackButton.addEventListener("click", () => {
-    navBar.classList.toggle("stackButton");
+    navBar.classList.toggle("navStackHamburger");
     console.log("clicked?");
 })

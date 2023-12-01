@@ -9,7 +9,7 @@ function createNewTask () {
 
     liElement.innerHTML =`
     <div class="task">
-        <h2>${taskTitle}</h2>
+        <h2 class="t-text">${taskTitle}</h2>
         <button>Delete Task</button>
     </div>
     `

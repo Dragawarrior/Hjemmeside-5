@@ -121,6 +121,10 @@ h1 {
     color: black;
 }
 
+.hb-text {
+    color: var(--color-quinary);
+}
+
 p {
     color: var(--color-primary);
     font-size: large;

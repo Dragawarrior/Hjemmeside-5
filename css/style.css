@@ -121,7 +121,11 @@ p {
 
 .navStack {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.stackButton {
+    display: none;
 }
 
 /*Holy shit, this fucking worked!?*/
@@ -135,14 +139,9 @@ p {
         flex-direction: column-reverse;
     }
 
-
-
     .stackButton {
         display: inline;
         width: 32px;
     }
 
-    #navBar {
-        display: none;
-    }
 }

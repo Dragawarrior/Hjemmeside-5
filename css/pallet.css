@@ -13,6 +13,7 @@
     --color-quaternary: #FF7F51;
     --color-quinary: #FF9B54;
 }
+/*Why did i pick so many colors?*/
 
 body {
     background-color: var(--color-secondary);
